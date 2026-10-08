@@ -21,7 +21,7 @@ accessConfig:
       type: STANDARD # optional Type
       kubernetesGroups: # optional Kubernetes groups
         - devops-trainees # groups can used to give permissions via RBAC
-    - principalARN: arn:aws:iam::160885265516:user/srikanthtl #its a TL 
+    - principalARN:  arn:aws:iam::349627593718:user/srikanthtl #its a TL 
       type: STANDARD # optional Type
       kubernetesGroups: # optional Kubernetes groups
         - devops-tls # groups can used to give permissions via RBAC

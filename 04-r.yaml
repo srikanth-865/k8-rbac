@@ -9,8 +9,9 @@ rules:
   resources: ["*"]
   verbs: ["*"]
 ---
+##ClusterRole can provide permissions across the cluster, including cluster-scoped resources.
 apiVersion: rbac.authorization.k8s.io/v1
-kind: ClusterRole
+kind: ClusterRole  
 metadata:
   # "namespace" omitted since ClusterRoles are not namespaced
   name: devops-tls
